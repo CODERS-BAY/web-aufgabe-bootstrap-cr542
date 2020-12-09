@@ -4,6 +4,14 @@
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 65vh;
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 7vh !important;
+    text-align: center;
+  }
 }
 
 #site_divider_1 {
@@ -32,8 +40,40 @@
   opacity: 0.7;
 }
 
+#site_divider_3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-image: url("/media/divider_3.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  width: 100%;
+  opacity: 0.7;
+}
+
+#site_divider_4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-image: url("/media/divider_4.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 50vh;
+  width: 100%;
+  opacity: 0.7;
+}
+
 .img_takeoff {
   width: 30%;
+}
+
+@media (max-width: 768px) {
+  #takeoff_img {
+    display: none !important;
+  }
 }
 
 .desc_img {
@@ -50,4 +90,8 @@
 
 footer {
   font-size: 85%;
+}
+
+ul {
+  list-style-type: square;
 }
